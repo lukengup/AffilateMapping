@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.mycompany.affiliatemapping.entities.Affiliates</class>
+    <class>com.mycompany.affiliatemapping.entities.AffiliateGroupMap</class>
+    <class>com.mycompany.affiliatemapping.entities.AffiliateGroup</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://translator.seoforge.xyz:40237/seoforge"/>
+      <property name="javax.persistence.jdbc.user" value="seoforge"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="2GTs=6m+M&lt;goFm?&gt;s-W;y&lt;n7FTbbdyLVGuvJ55dk;Athpo,csMW+nAHnH.CMcPcZ"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+    </properties>
+  </persistence-unit>
+</persistence>
